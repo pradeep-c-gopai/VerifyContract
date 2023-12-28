@@ -11,3 +11,11 @@ REPORT_GAS=true npx hardhat test
 npx hardhat node
 npx hardhat run scripts/deploy.js
 ```
+
+
+### ADD in README
+```
+ALCHEMY_API_KEY_URL="https://dashboard.alchemy.com/"
+MUMBAI_PRIVATE_KEY="YOUR_PRIAVTE_KEY"
+POLYGONSCAN_KEY="https://polygonscan.com/myapikey"
+```
