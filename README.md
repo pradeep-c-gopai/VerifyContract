@@ -27,5 +27,9 @@ npx hardhat run scripts/verifyProvider.js --network mumbai
 
 ### To verify through CLI
 ```
+For single argument
 npx hardhat verify --network mumbai 0x1a5f55A3778DC87aBdb587ac3c93Fb3357Dcd0fb "MATIC"
+
+For multiple arguments
+npx hardhat verify --network mumbai 0x0Bf99E0df07f620b48f054949b9773221F0F4a00 "0x9F03DC0D6473A102C7454A81BE0243f05622ca52" "0x6443E9F7282c27C517e61cF938cfe17Ba376E0EF"
 ```
